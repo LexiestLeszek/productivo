@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Procrastinator",
+    "description": "Productivity tool that resricts user from opening new tabs or switching to the new tabs",
+    "version": "1.0",
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "./images/icon96.png",
+            "48": "./images/icon96.png"
+        }
+    },
+    "icons": {
+        "16": "./images/icon96.png",
+        "48": "./images/icon96.png"
+    },
+    "permissions": ["activeTab"]
+}
