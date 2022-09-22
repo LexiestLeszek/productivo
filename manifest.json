@@ -17,5 +17,5 @@
         "16": "./images/icon96.png",
         "48": "./images/icon96.png"
     },
-    "permissions": ["activeTab"]
+    "permissions": ["accessibilityFeatures.modify", "accessibilityFeatures.read", "*://*"]
 }
