@@ -7,3 +7,8 @@ function productivity() {
         chrome.browserAction.disable()
         })
 }
+
+
+chrome.pageAction.onClicked.addListener(
+    callback: function,
+  )
